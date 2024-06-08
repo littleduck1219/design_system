@@ -1,0 +1,12 @@
+{
+    "name": "themes",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+
+        "build": "esbuild src/index.js --format=cjs --bundle --minify --sourcemap --outfile=dist/index.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.16.17"
+    }
+}
